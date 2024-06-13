@@ -1,0 +1,176 @@
+*, *::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Outfit", sans-serif;
+    background: var(--eggshellColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+:root{
+    --nutmegColor: hsl(14, 45%, 36%);
+    --darkRaspberryColor: hsl(332, 51%, 32%);
+    --whiteColor: hsl(0, 0%, 100%);
+    --roseWhiteColor: hsl(330, 100%, 98%);
+    --eggshellColor: hsl(29, 53%, 90%);
+    --lightGreyColor: hsl(30, 18%, 87%);
+    --wengeBrownColor: hsl(30, 10%, 34%);
+    --darkCharcoalColor: hsl(24, 5%, 18%);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Young Serif", serif;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+}
+/* ul{
+    list-style: none;
+} */
+a, a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.card{
+    width: 733px;
+    background: var(--whiteColor);
+    padding: 35px;
+    margin: 35px 0px;
+    border-radius: 25px;
+}
+.card img{
+    border-radius: 20px;
+    display: inline-block;
+}
+.card .card-body .recipe h3{
+    color: var(--darkCharcoalColor);
+    font-size: 40px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.card .card-body .recipe p{
+    margin: 25px 0px;
+    color: var(--nutmegColor);
+}
+.card .card-body .preparetion{
+    background: var(--roseWhiteColor);
+    border-radius: 15px;
+    padding: 25px;
+}
+.card .card-body .preparetion h5{
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--darkRaspberryColor);
+    margin-bottom: 10px;
+}
+.card .card-body .preparetion ul{
+    margin-left: 27px;
+    color: var(--darkRaspberryColor);
+}
+.card .card-body .preparetion ul li{
+    padding-left: 15px;
+}
+.card .card-body .preparetion ul li a{
+    color: var(--nutmegColor);
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.7em;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.card .card-body .preparetion ul li a span{
+    font-weight: 600;
+}
+.card .card-body .ingredients{
+    padding: 25px 0px;
+    border-bottom: 1px solid var(--lightGreyColor);
+}
+.card .card-body .ingredients h5{
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--nutmegColor);
+    margin-bottom: 10px;
+}
+.card .card-body .ingredients ul{
+    padding-left: 25px;
+    color: var(--nutmegColor);
+}
+.card .card-body .ingredients ul li{
+    padding-left: 15px;
+}
+.card .card-body .ingredients ul li a{
+    color: var(--nutmegColor);
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.7em;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.card .card-body .instructions{
+    padding: 25px 0px;
+    border-bottom: 1px solid var(--lightGreyColor);
+}
+.card .card-body .instructions h5{
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--nutmegColor);
+    margin-bottom: 10px;
+}
+.card .card-body .instructions ol{
+    margin-left: 27px;
+    color: var(--nutmegColor);
+}
+.card .card-body .instructions ol > li::marker{ 
+    font-weight: bold;
+}
+.card .card-body .instructions ol li{
+    color: var(--nutmegColor);
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.7em;
+    margin-bottom: 5px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+.card .card-body .instructions ol li span{
+    font-weight: 600;
+}
+.card .card-body .nutrition{
+    padding: 25px 0px;
+}
+.card .card-body .nutrition h5{
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--nutmegColor);
+    margin-bottom: 10px;
+}
+.card .card-body .nutrition p{
+    margin: 25px 0px;
+    color: var(--nutmegColor);
+}
+.card .card-body .nutrition table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.card .card-body .nutrition table tr{
+    padding: 20px 40px;
+    border-bottom: 1px solid var(--lightGreyColor);
+}
+.card .card-body .nutrition table tr th{
+    text-align: left;
+    padding: 0px 35px;
+    color: var(--darkCharcoalColor);
+}
+.card .card-body .nutrition table tr td{
+    padding: 20px;
+    text-align: left;
+    color: var(--nutmegColor);
+    font-weight: 700;
+}

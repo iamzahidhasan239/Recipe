@@ -1,0 +1,14 @@
+@media all and (max-width: 432px){
+    .card{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 0px;
+    }
+    .card img{
+        border-radius: 0px;
+    }
+    .card-body{
+        padding: 25px;
+    }
+}
